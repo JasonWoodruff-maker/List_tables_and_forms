@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registrastion form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form>
+      <table>
+        <tr>
+          <th class="table-header" colspan="4">Registrastion Form</th>
+        </tr>
+        <tr>
+          <td><label for=" name">Enter Name</label></td>
+          <td><input id="name" type="name" /></td>
+        </tr>
+        <tr>
+          <td><label for="password">Enter Password</label></td>
+          <td><input id="password" type="password" /></td>
+        </tr>
+        <tr>
+          <td><label for="res">Enter Address</label></td>
+          <td><textarea></textarea></td>
+        </tr>
+        <tr>
+          <td>Select game</td>
+          <td class="sports">
+            <input type="checkbox" name="sport" /><label>Hockey</label><br />
+            <input type="checkbox" name="sport" /><label>Football</label><br />
+            <input type="checkbox" name="sport" /><label>Badminton</label><br />
+            <input type="checkbox" name="sport" /><label>Cricket</label><br />
+            <input type="checkbox" name="sport" /><label>Vollyball</label><br />
+          </td>
+        </tr>
+        <tr>
+          <td>Gender</td>
+          <td>
+            <input type="radio" name="gender" /><label>Male</label>
+            <input type="radio" name="gender" /><label>Female</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label>Select your age</label>
+          </td>
+          <td><input type="number" /></td>
+        </tr>
+        <tr>
+          <td>
+            <label>Select photo</label>
+          </td>
+          <td><input type="file" /></td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <input class="bottom-buttons" type="button" value="Click me" />
+            <input class="bottom-buttons" type="button" value="Reset" />
+            <input class="bottom-buttons" type="button" value="Submit form" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+body {
+  text-align: center;
+  max-width: 500px;
+  margin: auto;
+}
+table {
+  background-color: rgb(28, 183, 255);
+}
+
+td {
+  border: 5px inset white;
+}
+
+.bottom-buttons {
+  padding: 10px;
+  position: relative;
+  font-size: 12pt;
+}
+.table-header {
+  background-color: yellow;
+  font-size: 50px;
+}
+
+
+
