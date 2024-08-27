@@ -1,25 +1,42 @@
 body {
-  text-align: center;
+  text-align: justify;
   max-width: 500px;
   margin: auto;
 }
 table {
-  background-color: rgb(28, 183, 255);
+  border: 3px outset gray;
+  border-width: 3px white;
 }
 
 td {
-  border: 5px inset white;
+  border: 1px inset grey;
+  background-color: rgb(0,200,248);
+  padding: 0px 5px 0px 5px;
+}
+
+td p {
+  display: inline;
 }
 
 .bottom-buttons {
-  padding: 10px;
+  padding: 14px 40px;
   position: relative;
-  font-size: 12pt;
+  font-size: 10pt;
+  margin: 1px;
+  
 }
 .table-header {
   background-color: yellow;
-  font-size: 50px;
+  font-size:  20pt;
+  color: red;
+  text-align: center;
 }
+.sports{
+  text-align: justify;
+  
 
-
-
+  
+}
+.gender{
+  text-align: justify;
+}
